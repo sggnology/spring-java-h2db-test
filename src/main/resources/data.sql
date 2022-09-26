@@ -1,2 +1,5 @@
-INSERT INTO USER (id, name, age, address) VALUES ( 1, 'hs', 26, null );
-INSERT INTO USER (id, name, age, address) VALUES ( 2, 'mj', 29, null );
+INSERT INTO countries (name) VALUES ('USA');
+INSERT INTO countries (name) VALUES ('France');
+INSERT INTO countries (name) VALUES ('Brazil');
+INSERT INTO countries (name) VALUES ('Italy');
+INSERT INTO countries (name) VALUES ('Canada');

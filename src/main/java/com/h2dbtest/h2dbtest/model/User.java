@@ -1,9 +1,11 @@
 package com.h2dbtest.h2dbtest.model;
 
+import org.springframework.context.annotation.Primary;
+
 import javax.persistence.*;
 
 @Entity
-@Table
+//@Table
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

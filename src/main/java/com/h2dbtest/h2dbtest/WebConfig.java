@@ -9,17 +9,17 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
-@EnableWebMvc
-@Component
-@ComponentScan("com.h2dbtest.h2dbtest")
-public class WebConfig implements WebMvcConfigurer {
-
-    @Bean
-    public ViewResolver internalResourceViewResolver(){
-        InternalResourceViewResolver bean = new InternalResourceViewResolver();
-        bean.setViewClass(JstlView.class);
-        bean.setPrefix("/view/");
-        bean.setSuffix(".html");
-        return bean;
-    }
-}
+//@EnableWebMvc
+//@Component
+//@ComponentScan("com.h2dbtest.h2dbtest")
+//public class WebConfig implements WebMvcConfigurer {
+//
+//    @Bean
+//    public ViewResolver internalResourceViewResolver(){
+//        InternalResourceViewResolver bean = new InternalResourceViewResolver();
+//        bean.setViewClass(JstlView.class);
+//        bean.setPrefix("/view/");
+//        bean.setSuffix(".html");
+//        return bean;
+//    }
+//}
